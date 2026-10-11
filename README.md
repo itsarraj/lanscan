@@ -5,6 +5,12 @@ local subnet without shelling out to `nmap`/`arp-scan`. Sends a real
 broadcast "who has `<ip>`?" ARP request for every host address in a
 given CIDR range and reports every real reply's IP and MAC address.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
